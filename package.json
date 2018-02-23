@@ -13,9 +13,11 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "husky": "^0.14.3",
+    "mobx": "^3.5.1",
+    "mobx-react": "^4.4.2",
     "react": "16.2.0",
     "react-native": "0.53.0",
+    "react-native-linear-gradient": "^2.4.0",
     "react-native-maps": "^0.20.1"
   },
   "devDependencies": {
@@ -28,6 +30,7 @@
     "eslint-plugin-react": "^7.7.0",
     "flow-bin": "^0.66.0",
     "gitignore-dot-io": "^0.1.5",
+    "husky": "^0.14.3",
     "jest-react-native": "^18.0.0",
     "prettier-eslint": "^8.8.1",
     "prettier-eslint-cli": "^4.7.1",
