@@ -7,7 +7,11 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "node node_modules/jest/bin/jest.js",
-    "regen-gitignore": "gitignore-dot-io reactnative android xcode cocoapods"
+    "gen-gitignore-ios": "cd ios && gitignore-dot-io xcode cocoapods",
+    "gen-gitignore-android": "cd android && gitignore-dot-io android gradle",
+    "gen-gitignore-root": "gitignore-dot-io reactnative",
+    "gen-gitignore":
+      "yarn gen-gitignore-ios && yarn gen-gitignore-android && yarn gen-gitignore-root"
   },
   "jest": {
     "preset": "react-native"
@@ -17,6 +21,7 @@
     "mobx-react": "^4.4.2",
     "react": "16.2.0",
     "react-native": "0.53.0",
+    "react-native-firebase": "^3.2.7",
     "react-native-linear-gradient": "^2.4.0",
     "react-native-maps": "^0.20.1"
   },

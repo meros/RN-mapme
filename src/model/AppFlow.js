@@ -1,13 +1,17 @@
 // @flow
 
-import { observable, computed } from 'mobx';
+import { observable, computed, action } from 'mobx';
 
 class AppFlow {
-  @observable userId: undefined | string = undefined;
+  @observable credentials: undefined | {} = undefined;
 
   @computed
   get isAuthenticated(): boolean {
-    return this.userId !== undefined;
+    return this.credentials !== undefined;
+  }
+  @action
+  setCredentials(credentials) {
+    this.credentials = credentials;
   }
 }
 

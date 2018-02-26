@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "588394306435",
+    "firebase_url": "https://mapme-backend.firebaseio.com",
+    "project_id": "mapme-backend",
+    "storage_bucket": "mapme-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588394306435:android:5654862a8fd43a65",
+        "android_client_info": {
+          "package_name": "com.testthree2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588394306435-8pdf9ub03loqlr4hd9v4lptk2nnpjbte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.testthree2",
+            "certificate_hash": "77603c5b86a9bab8f76ebfa29e12871c9fb7acce"
+          }
+        },
+        {
+          "client_id": "588394306435-5v9l29gc18qglu4502tc6tfiiop2r1a0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGQqRdy1gM9M5TexfHbf028yt3xX1YvkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588394306435-7bhpb9ipbroa29jiqj7nfd6ju5fuo0js.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.meros.mapme"
+              }
+            },
+            {
+              "client_id": "588394306435-5v9l29gc18qglu4502tc6tfiiop2r1a0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588394306435:android:2cb430d988f18350",
+        "android_client_info": {
+          "package_name": "com.mapme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588394306435-i0ks65a14q0549gov2h3bdkihqphlkd8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapme",
+            "certificate_hash": "77603c5b86a9bab8f76ebfa29e12871c9fb7acce"
+          }
+        },
+        {
+          "client_id": "588394306435-5v9l29gc18qglu4502tc6tfiiop2r1a0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGQqRdy1gM9M5TexfHbf028yt3xX1YvkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588394306435-7bhpb9ipbroa29jiqj7nfd6ju5fuo0js.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.meros.mapme"
+              }
+            },
+            {
+              "client_id": "588394306435-5v9l29gc18qglu4502tc6tfiiop2r1a0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
