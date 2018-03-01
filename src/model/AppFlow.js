@@ -3,15 +3,15 @@
 import { observable, computed, action } from 'mobx';
 
 class AppFlow {
-  @observable credentials: undefined | {} = undefined;
+  @observable credential: undefined | {} = undefined;
 
   @computed
   get isAuthenticated(): boolean {
-    return this.credentials !== undefined;
+    return this.credential !== undefined;
   }
   @action
-  setCredentials(credentials) {
-    this.credentials = credentials;
+  setCredential(credential) {
+    this.credential = credential;
   }
 }
 

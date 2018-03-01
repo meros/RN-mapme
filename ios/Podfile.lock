@@ -1,12 +1,21 @@
 PODS:
   - BVLinearGradient (2.4.0):
     - React
+  - CocoaLumberjack (3.4.1):
+    - CocoaLumberjack/Default (= 3.4.1)
+    - CocoaLumberjack/Extensions (= 3.4.1)
+  - CocoaLumberjack/Default (3.4.1)
+  - CocoaLumberjack/Extensions (3.4.1):
+    - CocoaLumberjack/Default
   - Firebase/Auth (4.9.0):
     - Firebase/Core
     - FirebaseAuth (= 4.4.3)
   - Firebase/Core (4.9.0):
     - FirebaseAnalytics (= 4.0.9)
     - FirebaseCore (= 4.0.15)
+  - Firebase/Database (4.9.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.4)
   - FirebaseAnalytics (4.0.9):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
@@ -18,6 +27,10 @@ PODS:
     - GTMSessionFetcher/Core (~> 1.1)
   - FirebaseCore (4.0.15):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.1.4):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
   - FirebaseInstanceID (2.0.9):
     - FirebaseCore (~> 4.0)
   - GoogleMaps (2.5.0):
@@ -35,61 +48,68 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.3)
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
-  - GTMSessionFetcher/Core (1.1.13)
+  - GTMSessionFetcher/Core (1.1.14)
+  - leveldb-library (1.20)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - React (0.53.0):
-    - React/Core (= 0.53.0)
+  - React (0.53.3):
+    - React/Core (= 0.53.3)
   - react-native-google-maps (0.20.1):
     - GoogleMaps (= 2.5.0)
     - React
   - react-native-maps (0.20.1):
     - React
-  - React/BatchedBridge (0.53.0):
+  - React/BatchedBridge (0.53.3):
     - React/Core
     - React/cxxreact_legacy
-  - React/Core (0.53.0):
-    - yoga (= 0.53.0.React)
-  - React/cxxreact_legacy (0.53.0):
+  - React/Core (0.53.3):
+    - yoga (= 0.53.3.React)
+  - React/cxxreact_legacy (0.53.3):
     - React/jschelpers_legacy
     - React/jsinspector_legacy
-  - React/fishhook (0.53.0)
-  - React/jschelpers_legacy (0.53.0)
-  - React/jsinspector_legacy (0.53.0)
-  - React/RCTActionSheet (0.53.0):
+  - React/fishhook (0.53.3)
+  - React/jschelpers_legacy (0.53.3)
+  - React/jsinspector_legacy (0.53.3)
+  - React/RCTActionSheet (0.53.3):
     - React/Core
-  - React/RCTAnimation (0.53.0):
+  - React/RCTAnimation (0.53.3):
     - React/Core
-  - React/RCTBlob (0.53.0):
+  - React/RCTBlob (0.53.3):
     - React/Core
-  - React/RCTGeolocation (0.53.0):
+  - React/RCTGeolocation (0.53.3):
     - React/Core
-  - React/RCTImage (0.53.0):
+  - React/RCTImage (0.53.3):
     - React/Core
     - React/RCTNetwork
-  - React/RCTLinkingIOS (0.53.0):
+  - React/RCTLinkingIOS (0.53.3):
     - React/Core
-  - React/RCTNetwork (0.53.0):
+  - React/RCTNetwork (0.53.3):
     - React/Core
-  - React/RCTSettings (0.53.0):
+  - React/RCTSettings (0.53.3):
     - React/Core
-  - React/RCTText (0.53.0):
+  - React/RCTText (0.53.3):
     - React/Core
-  - React/RCTVibration (0.53.0):
+  - React/RCTVibration (0.53.3):
     - React/Core
-  - React/RCTWebSocket (0.53.0):
+  - React/RCTWebSocket (0.53.3):
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - yoga (0.53.0.React)
+  - RNBackgroundFetch (2.4.0):
+    - React
+  - RNBackgroundGeolocation (2.11.0):
+    - CocoaLumberjack (~> 3.0)
+    - React
+  - yoga (0.53.3.React)
 
 DEPENDENCIES:
   - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - Firebase/Auth
   - Firebase/Core
+  - Firebase/Database
   - GoogleMaps
   - react-native-google-maps (from `../node_modules/react-native-maps`)
   - react-native-maps (from `../node_modules/react-native-maps`)
@@ -105,6 +125,8 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNBackgroundFetch (from `../node_modules/react-native-background-fetch`)
+  - RNBackgroundGeolocation (from `../node_modules/react-native-background-geolocation`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
 
 EXTERNAL SOURCES:
@@ -116,25 +138,34 @@ EXTERNAL SOURCES:
     :path: ../node_modules/react-native-maps
   react-native-maps:
     :path: ../node_modules/react-native-maps
+  RNBackgroundFetch:
+    :path: ../node_modules/react-native-background-fetch
+  RNBackgroundGeolocation:
+    :path: ../node_modules/react-native-background-geolocation
   yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
 
 SPEC CHECKSUMS:
   BVLinearGradient: 4b3f3bdf1ac1a52a5ef5e65c9585d793a7c3f825
+  CocoaLumberjack: 2e258a064cacc8eb9a2aca318e24d02a0a7fd56d
   Firebase: 632216af3ed7f31e3be34776947fdc7546cfb572
   FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
   FirebaseAuth: aaaf68d5064a6c8fec435758f83a43b8db26ccaa
   FirebaseCore: 3bd047463058fa6b5d312c97502c52e45401cdfb
+  FirebaseDatabase: de4446507ccd3257fca37d16f40e1540324571fd
   FirebaseInstanceID: d2058a35e9bebda1b6dd42486b84917bde552a9d
   GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
-  GTMSessionFetcher: 5bb1eae636127de695590f50e7d248483eb891e6
+  GTMSessionFetcher: 390ea358e5a0d0133153806f744662dad933d06b
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  React: 988a7dbd5626e0dd4f4b63fb444fa7e3d975e5b7
+  React: af66244a7d630be2aef03b4ddfe3570e4eff39fc
   react-native-google-maps: 963fc78a5ac32dad3a726e4fa08b5307faa5cab2
   react-native-maps: 066c2afcc89e18726377bcc685315f989ca22449
+  RNBackgroundFetch: 8c4f77f83c398c659bce82af2f0a885079417b9e
+  RNBackgroundGeolocation: c9bbf69b9aa277f0b46754cc5f853bd26051a18f
   yoga: 55da126afc384965b96bff46652464373b330add
 
-PODFILE CHECKSUM: 3923225ebd40164212db78ec7a7b3f63fa0f9365
+PODFILE CHECKSUM: f670b3ef3bf0138f7569e2d703dbfc994415efab
 
 COCOAPODS: 1.4.0

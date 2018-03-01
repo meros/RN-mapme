@@ -136,19 +136,30 @@ android {
     }
 }
 
+repositories {
+    flatDir {
+        dirs "../../node_modules/react-native-background-geolocation/android/libs"
+    }
+}
+
+
 dependencies {
-    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    compile project(':react-native-background-fetch')
+    compile project(':react-native-background-geolocation')
+    compile(name: 'tslocationmanager', ext: 'aar')
+    implementation 'com.google.firebase:firebase-auth:11.6.0'
     compile(project(':react-native-firebase')) {
         transitive = false
     }
     // Firebase dependencies
-    compile "com.google.android.gms:play-services-base:11.8.0"
-    compile "com.google.firebase:firebase-core:11.8.0"
-    compile 'com.google.firebase:firebase-auth:11.8.0'
+    compile "com.google.android.gms:play-services-base:11.6.0"
+    compile "com.google.firebase:firebase-core:11.6.0"
+    compile 'com.google.firebase:firebase-auth:11.6.0'
+    compile "com.google.firebase:firebase-database:11.6.0"
 
     compile project(':react-native-maps')
-    compile "com.google.android.gms:play-services-base:11.8.0"
-    compile "com.google.android.gms:play-services-maps:11.8.0"
+    compile "com.google.android.gms:play-services-base:11.6.0"
+    compile "com.google.android.gms:play-services-maps:11.6.0"
 
     compile project(':react-native-linear-gradient')
     compile fileTree(dir: "libs", include: ["*.jar"])

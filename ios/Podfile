@@ -28,6 +28,9 @@ target 'mapme' do
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'RNBackgroundGeolocation', :path => '../node_modules/react-native-background-geolocation'
+  pod 'RNBackgroundFetch', :path => '../node_modules/react-native-background-fetch'
 end
 
 post_install do |installer|

@@ -1,32 +1,31 @@
 // @flow
 
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import firebase from 'react-native-firebase';
 import { observer } from 'mobx-react';
 
-import Map from './components/Map';
 import LoginPage from './pages/LoginPage';
+import AuthenticatedPage from './pages/AuthenticatedPage';
 
 import appFlow from './model/AppFlow';
 
 @observer
-export default class App extends React.Component {
+export default class App extends React.Component<{}, {}> {
   componentDidMount() {
     firebase
       .auth()
       .signInAnonymouslyAndRetrieveData()
       .then((credential) => {
         if (credential) {
-          alert(credential.user.uid);
-          appFlow.setCredentials(credential);
+          appFlow.setCredential(credential);
         }
       });
   }
 
   renderContent() {
     if (appFlow.isAuthenticated) {
-      return <Map />;
+      return <AuthenticatedPage firebaseUid={appFlow.credential.user.uid} />;
     }
 
     return <LoginPage />;

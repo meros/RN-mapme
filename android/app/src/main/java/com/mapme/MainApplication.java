@@ -3,8 +3,11 @@ package com.mapme;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
+import com.transistorsoft.rnbackgroundgeolocation.RNBackgroundGeolocation;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
+import io.invertase.firebase.database.RNFirebaseDatabasePackage;
 
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.facebook.react.ReactNativeHost;
@@ -28,10 +31,10 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNFirebasePackage(),
-            new RNFirebaseAuthPackage(),
-            new LinearGradientPackage(), new MapsPackage()
-      );
+            new RNBackgroundFetchPackage(), new RNBackgroundGeolocation(),
+          new RNFirebasePackage(), new RNFirebaseAuthPackage(),
+          new RNFirebaseDatabasePackage(), new LinearGradientPackage(),
+          new MapsPackage());
     }
 
     @Override
