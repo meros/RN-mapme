@@ -17,6 +17,7 @@ export default class App extends React.Component<{}, {}> {
       .auth()
       .signInAnonymouslyAndRetrieveData()
       .then((credential) => {
+        alert(JSON.stringify(credential));
         if (credential) {
           appFlow.setCredential(credential);
         }

@@ -1,11 +1,11 @@
 // @flow
 
 import React from 'react';
-import LinearGradient from 'react-native-linear-gradient';
+import { View } from 'react-native';
 
 export default class LoginPage extends React.Component<{}, {}> {
   render() {
-    return <LinearGradient colors={['#f53b57', '#f53b57']} style={styles.container} />;
+    return <View style={styles.container} />;
   }
 }
 

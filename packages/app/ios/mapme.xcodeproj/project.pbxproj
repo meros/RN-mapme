@@ -22,6 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		28BDCAB7A0644A0FB3FE1F08 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F4BF4F9D72415E965498B1 /* libRNFirebase.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -33,21 +34,13 @@
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2D75397D4DAB46D1A35890F3 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF7D7A9784440E78834C079 /* libRNFirebase.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* mapmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mapmeTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		804A70617BDCF1FAC3710F5F /* libPods-mapme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E74611D8CC4A6FBA461F1CBE /* libPods-mapme.a */; };
-		808184275AD3405BB8F939E4 /* RNBackgroundFetch+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A00375C746B140319A0A802C /* RNBackgroundFetch+AppDelegate.m */; };
+		628DB4A62EE41B3FE50A9EF8 /* libPods-mapmeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D332B6DCE85509CEA7C55CE /* libPods-mapmeTests.a */; };
+		70C6868BD21F055561A6D250 /* libPods-mapme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36584D22532074B3EAE263C6 /* libPods-mapme.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		EE74F5582047EBF100E601B5 /* libRNBackgroundFetch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE74F55A2047EBF100E601B5 /* libRNBackgroundFetch.a */; };
-		EE74F5592047EBF100E601B5 /* libRNBackgroundGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE74F55B2047EBF100E601B5 /* libRNBackgroundGeolocation.a */; };
-		EE74F5822047EBF600E601B5 /* libCocoaLumberjack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE74F5832047EBF600E601B5 /* libCocoaLumberjack.a */; };
-		EE74F5852047EC0800E601B5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE74F5842047EC0800E601B5 /* libsqlite3.tbd */; };
-		EE74F5872047EC1000E601B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE74F5862047EC1000E601B5 /* libz.tbd */; };
-		EE74F5892047EC9D00E601B5 /* TSLocationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE74F5882047EC9D00E601B5 /* TSLocationManager.framework */; };
-		EE74F58B2047ECBB00E601B5 /* TSBackgroundFetch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE74F58A2047ECBB00E601B5 /* TSBackgroundFetch.framework */; };
-		EEF47489204184E20068CC08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEF47488204184E10068CC08 /* GoogleService-Info.plist */; };
+		EE30FC98204C0B8200562330 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE30FC97204C0B8200562330 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,65 +261,65 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
-		EEF474732041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC82204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
 			remoteInfo = jsinspector;
 		};
-		EEF474752041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC84204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
 			remoteInfo = "jsinspector-tvOS";
 		};
-		EEF474772041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC86204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
 			remoteInfo = "third-party";
 		};
-		EEF474792041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC88204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
 			remoteInfo = "third-party-tvOS";
 		};
-		EEF4747B2041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC8A204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
 			remoteInfo = "double-conversion";
 		};
-		EEF4747D2041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC8C204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
 		};
-		EEF4747F2041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC8E204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
 			remoteInfo = privatedata;
 		};
-		EEF474812041837E0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC90204C0AEE00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
 			remoteInfo = "privatedata-tvOS";
 		};
-		EEF474862041837F0068CC08 /* PBXContainerItemProxy */ = {
+		EE30FC95204C0AEF00562330 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1391E2CC708A4F928037EA3D /* RNFirebase.xcodeproj */;
+			containerPortal = CFE18DDF21EE4BDC9B185EB4 /* RNFirebase.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNFirebase;
@@ -343,9 +336,7 @@
 		00E356EE1AD99517003FC87E /* mapmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* mapmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapmeTests.m; sourceTree = "<group>"; };
-		0A33928E19F368F31211D65A /* Pods-mapme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mapme/Pods-mapme.debug.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
-		1391E2CC708A4F928037EA3D /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* mapme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mapme/AppDelegate.h; sourceTree = "<group>"; };
@@ -355,27 +346,22 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mapme/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mapme/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1755434ABC78017EB0E068FB /* Pods-mapmeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mapmeTests/Pods-mapmeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26B768F4EBDE7B99506B509D /* Pods-mapme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mapme/Pods-mapme.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* mapme-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapme-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* mapme-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mapme-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36584D22532074B3EAE263C6 /* libPods-mapme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F4BF4F9D72415E965498B1 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
-		7BF7D7A9784440E78834C079 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
+		7D332B6DCE85509CEA7C55CE /* libPods-mapmeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapmeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		A00375C746B140319A0A802C /* RNBackgroundFetch+AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "RNBackgroundFetch+AppDelegate.m"; path = "../node_modules/react-native-background-fetch/ios/RNBackgroundFetch/RNBackgroundFetch+AppDelegate.m"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		E499D26FDA543FE82B8CCA90 /* Pods-mapme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapme.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapme/Pods-mapme.release.xcconfig"; sourceTree = "<group>"; };
-		E74611D8CC4A6FBA461F1CBE /* libPods-mapme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mapme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE555CE92047E9B5006D0AEF /* libRNBackgroundGeolocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNBackgroundGeolocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE74F55A2047EBF100E601B5 /* libRNBackgroundFetch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNBackgroundFetch.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE74F55B2047EBF100E601B5 /* libRNBackgroundGeolocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNBackgroundGeolocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE74F5832047EBF600E601B5 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE74F5842047EC0800E601B5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		EE74F5862047EC1000E601B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		EE74F5882047EC9D00E601B5 /* TSLocationManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TSLocationManager.framework; path = "../node_modules/react-native-background-geolocation/ios/RNBackgroundGeolocation/TSLocationManager.framework"; sourceTree = "<group>"; };
-		EE74F58A2047ECBB00E601B5 /* TSBackgroundFetch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TSBackgroundFetch.framework; path = "../node_modules/react-native-background-fetch/ios/RNBackgroundFetch/TSBackgroundFetch.framework"; sourceTree = "<group>"; };
-		EEA5A8CA2047E9F10088A276 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF47488204184E10068CC08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFE18DDF21EE4BDC9B185EB4 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
+		D64F0BCFF303E821F0D120E3 /* Pods-mapme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapme.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapme/Pods-mapme.release.xcconfig"; sourceTree = "<group>"; };
+		EA6012C2BBD6FCB0F6A7DFA8 /* Pods-mapmeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapmeTests/Pods-mapmeTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE30FC97204C0B8200562330 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				628DB4A62EE41B3FE50A9EF8 /* libPods-mapmeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,13 +378,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE74F58B2047ECBB00E601B5 /* TSBackgroundFetch.framework in Frameworks */,
-				EE74F5892047EC9D00E601B5 /* TSLocationManager.framework in Frameworks */,
-				EE74F5872047EC1000E601B5 /* libz.tbd in Frameworks */,
-				EE74F5852047EC0800E601B5 /* libsqlite3.tbd in Frameworks */,
-				EE74F5822047EBF600E601B5 /* libCocoaLumberjack.a in Frameworks */,
-				EE74F5582047EBF100E601B5 /* libRNBackgroundFetch.a in Frameworks */,
-				EE74F5592047EBF100E601B5 /* libRNBackgroundGeolocation.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -411,8 +391,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				804A70617BDCF1FAC3710F5F /* libPods-mapme.a in Frameworks */,
-				2D75397D4DAB46D1A35890F3 /* libRNFirebase.a in Frameworks */,
+				28BDCAB7A0644A0FB3FE1F08 /* libRNFirebase.a in Frameworks */,
+				70C6868BD21F055561A6D250 /* libPods-mapme.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +503,7 @@
 		13B07FAE1A68108700A75B9A /* mapme */ = {
 			isa = PBXGroup;
 			children = (
+				EE30FC97204C0B8200562330 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -530,8 +511,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				EEF47488204184E10068CC08 /* GoogleService-Info.plist */,
-				A00375C746B140319A0A802C /* RNBackgroundFetch+AppDelegate.m */,
 			);
 			name = mapme;
 			sourceTree = "<group>";
@@ -547,14 +526,14 @@
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
-				EEF474742041837E0068CC08 /* libjsinspector.a */,
-				EEF474762041837E0068CC08 /* libjsinspector-tvOS.a */,
-				EEF474782041837E0068CC08 /* libthird-party.a */,
-				EEF4747A2041837E0068CC08 /* libthird-party.a */,
-				EEF4747C2041837E0068CC08 /* libdouble-conversion.a */,
-				EEF4747E2041837E0068CC08 /* libdouble-conversion.a */,
-				EEF474802041837E0068CC08 /* libprivatedata.a */,
-				EEF474822041837E0068CC08 /* libprivatedata-tvOS.a */,
+				EE30FC83204C0AEE00562330 /* libjsinspector.a */,
+				EE30FC85204C0AEE00562330 /* libjsinspector-tvOS.a */,
+				EE30FC87204C0AEE00562330 /* libthird-party.a */,
+				EE30FC89204C0AEE00562330 /* libthird-party.a */,
+				EE30FC8B204C0AEE00562330 /* libdouble-conversion.a */,
+				EE30FC8D204C0AEE00562330 /* libdouble-conversion.a */,
+				EE30FC8F204C0AEE00562330 /* libprivatedata.a */,
+				EE30FC91204C0AEE00562330 /* libprivatedata-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -562,19 +541,22 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE74F58A2047ECBB00E601B5 /* TSBackgroundFetch.framework */,
-				EE74F5882047EC9D00E601B5 /* TSLocationManager.framework */,
-				EE74F5862047EC1000E601B5 /* libz.tbd */,
-				EE74F5842047EC0800E601B5 /* libsqlite3.tbd */,
-				EE74F5832047EBF600E601B5 /* libCocoaLumberjack.a */,
-				EE74F55A2047EBF100E601B5 /* libRNBackgroundFetch.a */,
-				EE74F55B2047EBF100E601B5 /* libRNBackgroundGeolocation.a */,
-				EEA5A8CA2047E9F10088A276 /* libCocoaLumberjack.a */,
-				EE555CE92047E9B5006D0AEF /* libRNBackgroundGeolocation.a */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				E74611D8CC4A6FBA461F1CBE /* libPods-mapme.a */,
+				36584D22532074B3EAE263C6 /* libPods-mapme.a */,
+				7D332B6DCE85509CEA7C55CE /* libPods-mapmeTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3434772CFD9C87B196E09B5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B768F4EBDE7B99506B509D /* Pods-mapme.debug.xcconfig */,
+				D64F0BCFF303E821F0D120E3 /* Pods-mapme.release.xcconfig */,
+				1755434ABC78017EB0E068FB /* Pods-mapmeTests.debug.xcconfig */,
+				EA6012C2BBD6FCB0F6A7DFA8 /* Pods-mapmeTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -610,7 +592,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				1391E2CC708A4F928037EA3D /* RNFirebase.xcodeproj */,
+				CFE18DDF21EE4BDC9B185EB4 /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -632,8 +614,8 @@
 				00E356EF1AD99517003FC87E /* mapmeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				8BF55B3F7864C1832688CF9D /* Pods */,
-				EEF4744D2041837E0068CC08 /* Recovered References */,
+				EE30FC5C204C0AEC00562330 /* Recovered References */,
+				3434772CFD9C87B196E09B5A /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -651,15 +633,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BF55B3F7864C1832688CF9D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0A33928E19F368F31211D65A /* Pods-mapme.debug.xcconfig */,
-				E499D26FDA543FE82B8CCA90 /* Pods-mapme.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,18 +642,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EEF4744D2041837E0068CC08 /* Recovered References */ = {
+		EE30FC5C204C0AEC00562330 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				7BF7D7A9784440E78834C079 /* libRNFirebase.a */,
+				39F4BF4F9D72415E965498B1 /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		EEF474832041837F0068CC08 /* Products */ = {
+		EE30FC92204C0AEF00562330 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EEF474872041837F0068CC08 /* libRNFirebase.a */,
+				EE30FC96204C0AEF00562330 /* libRNFirebase.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -692,9 +665,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mapmeTests" */;
 			buildPhases = (
+				C2C69505A882C5A4F79677E7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				8E0973906531FB7994145412 /* [CP] Embed Pods Frameworks */,
+				BCE1DF6224AACC5FB0877E3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -710,13 +686,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mapme" */;
 			buildPhases = (
-				5AA2B3FF4C293ED3A25919D6 /* [CP] Check Pods Manifest.lock */,
+				40CD23399AB228394E542E65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				64CFB46562174547395BF1D5 /* [CP] Embed Pods Frameworks */,
-				8225A4F68456313234550C59 /* [CP] Copy Pods Resources */,
+				1D85CC48E181D30EF758266F /* [CP] Embed Pods Frameworks */,
+				674CBD242B19626598A36C3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -774,16 +750,7 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 886PDXE756;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 886PDXE756;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = true;
-							};
-						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -857,8 +824,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = EEF474832041837F0068CC08 /* Products */;
-					ProjectRef = 1391E2CC708A4F928037EA3D /* RNFirebase.xcodeproj */;
+					ProductGroup = EE30FC92204C0AEF00562330 /* Products */;
+					ProjectRef = CFE18DDF21EE4BDC9B185EB4 /* RNFirebase.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1075,67 +1042,67 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF474742041837E0068CC08 /* libjsinspector.a */ = {
+		EE30FC83204C0AEE00562330 /* libjsinspector.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libjsinspector.a;
-			remoteRef = EEF474732041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC82204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF474762041837E0068CC08 /* libjsinspector-tvOS.a */ = {
+		EE30FC85204C0AEE00562330 /* libjsinspector-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libjsinspector-tvOS.a";
-			remoteRef = EEF474752041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC84204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF474782041837E0068CC08 /* libthird-party.a */ = {
+		EE30FC87204C0AEE00562330 /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libthird-party.a";
-			remoteRef = EEF474772041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC86204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF4747A2041837E0068CC08 /* libthird-party.a */ = {
+		EE30FC89204C0AEE00562330 /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libthird-party.a";
-			remoteRef = EEF474792041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC88204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF4747C2041837E0068CC08 /* libdouble-conversion.a */ = {
+		EE30FC8B204C0AEE00562330 /* libdouble-conversion.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libdouble-conversion.a";
-			remoteRef = EEF4747B2041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC8A204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF4747E2041837E0068CC08 /* libdouble-conversion.a */ = {
+		EE30FC8D204C0AEE00562330 /* libdouble-conversion.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libdouble-conversion.a";
-			remoteRef = EEF4747D2041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC8C204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF474802041837E0068CC08 /* libprivatedata.a */ = {
+		EE30FC8F204C0AEE00562330 /* libprivatedata.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libprivatedata.a;
-			remoteRef = EEF4747F2041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC8E204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF474822041837E0068CC08 /* libprivatedata-tvOS.a */ = {
+		EE30FC91204C0AEE00562330 /* libprivatedata-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libprivatedata-tvOS.a";
-			remoteRef = EEF474812041837E0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC90204C0AEE00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		EEF474872041837F0068CC08 /* libRNFirebase.a */ = {
+		EE30FC96204C0AEF00562330 /* libRNFirebase.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNFirebase.a;
-			remoteRef = EEF474862041837F0068CC08 /* PBXContainerItemProxy */;
+			remoteRef = EE30FC95204C0AEF00562330 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1154,7 +1121,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				EEF47489204184E20068CC08 /* GoogleService-Info.plist in Resources */,
+				EE30FC98204C0B8200562330 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,6 +1157,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		1D85CC48E181D30EF758266F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapme/Pods-mapme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1204,7 +1186,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5AA2B3FF4C293ED3A25919D6 /* [CP] Check Pods Manifest.lock */ = {
+		40CD23399AB228394E542E65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1222,22 +1204,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		64CFB46562174547395BF1D5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapme/Pods-mapme-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8225A4F68456313234550C59 /* [CP] Copy Pods Resources */ = {
+		674CBD242B19626598A36C3C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1253,6 +1220,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapme/Pods-mapme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E0973906531FB7994145412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapmeTests/Pods-mapmeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE1DF6224AACC5FB0877E3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapmeTests/Pods-mapmeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2C69505A882C5A4F79677E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mapmeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1272,7 +1287,6 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				808184275AD3405BB8F939E4 /* RNBackgroundFetch+AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1323,13 +1337,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1755434ABC78017EB0E068FB /* Pods-mapmeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 886PDXE756;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios/**",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios/**",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1356,14 +1366,10 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6012C2BBD6FCB0F6A7DFA8 /* Pods-mapmeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 886PDXE756;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios/**",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios/**",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1386,20 +1392,11 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A33928E19F368F31211D65A /* Pods-mapme.debug.xcconfig */;
+			baseConfigurationReference = 26B768F4EBDE7B99506B509D /* Pods-mapme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 886PDXE756;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios\n",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios\n",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios\n",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios\n$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1411,7 +1408,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.meros.mapme;
 				PRODUCT_NAME = mapme;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1419,19 +1415,10 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E499D26FDA543FE82B8CCA90 /* Pods-mapme.release.xcconfig */;
+			baseConfigurationReference = D64F0BCFF303E821F0D120E3 /* Pods-mapme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 886PDXE756;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios\n",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios\n",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios\n",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios\n$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1443,7 +1430,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.meros.mapme;
 				PRODUCT_NAME = mapme;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1460,10 +1446,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios/**",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios/**",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1498,10 +1480,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../node_modules/react-native-background-geolocation/ios/**",
-					"$(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios/**",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

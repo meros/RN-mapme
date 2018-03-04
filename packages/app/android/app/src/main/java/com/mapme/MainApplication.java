@@ -2,19 +2,16 @@ package com.mapme;
 
 import android.app.Application;
 
+import com.airbnb.android.react.maps.MapsPackage;
 import com.facebook.react.ReactApplication;
-import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
-import com.transistorsoft.rnbackgroundgeolocation.RNBackgroundGeolocation;
 import io.invertase.firebase.RNFirebasePackage;
-import io.invertase.firebase.auth.RNFirebaseAuthPackage;
 import io.invertase.firebase.database.RNFirebaseDatabasePackage;
+import io.invertase.firebase.auth.RNFirebaseAuthPackage;
 
-import com.BV.LinearGradient.LinearGradientPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.airbnb.android.react.maps.MapsPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -30,11 +27,9 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new RNBackgroundFetchPackage(), new RNBackgroundGeolocation(),
-          new RNFirebasePackage(), new RNFirebaseAuthPackage(),
-          new RNFirebaseDatabasePackage(), new LinearGradientPackage(),
-          new MapsPackage());
+                 new MainReactPackage(), new RNFirebasePackage(),
+                 new RNFirebaseDatabasePackage(), new MapsPackage(),
+          new RNFirebaseAuthPackage());
     }
 
     @Override
