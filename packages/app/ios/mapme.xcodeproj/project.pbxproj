@@ -41,6 +41,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		EE30FC98204C0B8200562330 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE30FC97204C0B8200562330 /* GoogleService-Info.plist */; };
+		EE30FD36204C77D300562330 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE30FD35204C77D300562330 /* LocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -362,6 +363,8 @@
 		D64F0BCFF303E821F0D120E3 /* Pods-mapme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapme.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapme/Pods-mapme.release.xcconfig"; sourceTree = "<group>"; };
 		EA6012C2BBD6FCB0F6A7DFA8 /* Pods-mapmeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapmeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapmeTests/Pods-mapmeTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE30FC97204C0B8200562330 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE30FD0E204C771500562330 /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		EE30FD35204C77D300562330 /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -511,6 +514,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				EE30FD0E204C771500562330 /* LocationManager.h */,
+				EE30FD35204C77D300562330 /* LocationManager.m */,
 			);
 			name = mapme;
 			sourceTree = "<group>";
@@ -1285,6 +1290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE30FD36204C77D300562330 /* LocationManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

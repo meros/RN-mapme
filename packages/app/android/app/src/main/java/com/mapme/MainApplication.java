@@ -29,7 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
                  new MainReactPackage(), new RNFirebasePackage(),
                  new RNFirebaseDatabasePackage(), new MapsPackage(),
-          new RNFirebaseAuthPackage());
+          new RNFirebaseAuthPackage(),
+              new LocationManagerPackage());
     }
 
     @Override
@@ -48,4 +49,5 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
   }
+
 }

@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage';
 import AuthenticatedPage from './pages/AuthenticatedPage';
 
 import appFlow from './model/AppFlow';
+import './LocationManager';
 
 @observer
 export default class App extends React.Component<{}, {}> {
